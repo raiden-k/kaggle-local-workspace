@@ -1,0 +1,2 @@
+wandb:
+  WANDB_API_KEY: key
