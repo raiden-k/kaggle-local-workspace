@@ -1,0 +1,7 @@
+# すべてのファイルを無視
+api/*
+competitions/*
+
+# 例外としてダミーファイルを許可
+!api/.gitkeep
+!competitions/.gitkeep
