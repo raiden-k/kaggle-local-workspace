@@ -1,0 +1,18 @@
+{
+  "image": "gcr.io/kaggle-gpu-images/python:latest",
+  "runArgs": ["--gpus", "all"],
+
+  "workspaceMount": "source=${localWorkspaceFolder},target=/workspaces/kaggle_workspace,type=bind,consistency=cached",
+  "workspaceFolder": "/workspaces/kaggle_workspace",
+
+  "forwardPorts": [8888],
+
+  "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "installZsh": "false",
+      "configureZshAsDefaultShell": "false"
+    }
+  }
+}
+
+
