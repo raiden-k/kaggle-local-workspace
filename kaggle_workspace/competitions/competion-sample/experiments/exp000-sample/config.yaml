@@ -1,0 +1,10 @@
+competition_name: "cmi-detect-behavior-with-sensor-data"
+expUser: "kukimiya"
+expID: "001"
+kaggle_api_path: "../../../../api/kaggle.json"
+kaggle_datasets_path: "../../results"
+wandb_api_path: "../../../../api/wandb.yaml"
+wandb_logging_path: "../../"
+dataPath: "../../cmi-detect-behavior-with-sensor-data/"
+seed: 42
+n_splits: 5
