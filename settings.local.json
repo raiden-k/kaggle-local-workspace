@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(touch:*)",
+      "WebFetch(domain:www.kaggle.com)",
+      "mcp__ide__executeCode",
+      "Bash(python test:*)",
+      "Bash(python:*)",
+      "Bash(rm:*)",
+      "Bash(cp:*)",
+      "Bash(rg:*)",
+      "Bash(grep:*)",
+      "Bash(find:*)"
+    ],
+    "deny": []
+  }
+}
